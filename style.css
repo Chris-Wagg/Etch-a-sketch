@@ -1,0 +1,16 @@
+body {
+	margin: 30px;
+}
+
+#parent {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(9, 50px);
+	grid-template-rows: repeat(9, 50px);
+}
+
+#parent > div {
+	padding: 10px;
+	background: gold;
+	border-radius: 10px;
+}
